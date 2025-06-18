@@ -1,5 +1,9 @@
 from pymilvus import MilvusClient
 
-client = MilvusClient("milvus_demo.db")
+print("import success")
 
-client.close()
+client = MilvusClient("./milvus_demo.db")
+
+print("client initialized")
+
+#client.close()

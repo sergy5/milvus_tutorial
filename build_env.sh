@@ -2,8 +2,7 @@
 
 set -e
 
-[[ -d .venv ]] || python -m venv .venv
-source .venv/Scripts/activate
-python -m pip install --upgrade pip
+[[ -d .venv ]] || python3.11 -m venv .venv
+source .venv/bin/activate
 pip install uv
 uv pip install -r requirements.txt
