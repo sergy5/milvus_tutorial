@@ -1,3 +1,4 @@
 pymilvus[model]
 setuptools==70.0.0 # latest version throws warning after import
-
+sentence-transformers
+ipywidgets
